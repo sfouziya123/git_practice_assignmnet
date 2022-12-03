@@ -1,2 +1,1 @@
-prime or not
-palindrome 
+//prime or not let isPrime=true;    if(num===1){        console.log("1 is nethier prime nor composite number");            }    else if(num>1){        for(let i=2;i<=num/2;++i){            if(num%i==0){                isPrime=false;                break;                }        }        if(isPrime){            console.log("Yes")                    }        else {            console.log("No")        }    }//palindrome     let reverse_str=" ";    for(i=N-1;i>=0;i--){        reverse_str+=str[i];    }    if(reverse_str==str){        console.log("Yes")            }    else {        console.log("No")    }
